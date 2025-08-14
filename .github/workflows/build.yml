@@ -24,8 +24,38 @@ jobs:
           GOOS=darwin GOARCH=amd64 go build -o build-output/mcpscan-darwin-amd64 .
           GOOS=darwin GOARCH=arm64 go build -o build-output/mcpscan-darwin-arm64 .
 
-      - name: Upload build artifacts
+      - name: Upload Windows AMD64
         uses: actions/upload-artifact@v4
         with:
-          name: mcpscan-builds
-          path: build-output/
+          name: mcpscan-windows-amd64
+          path: mcpscan-windows-amd64.exe
+
+      - name: Upload Windows ARM64
+        uses: actions/upload-artifact@v4
+        with:
+          name: mcpscan-windows-arm64
+          path: mcpscan-windows-arm64.exe
+
+      - name: Upload Linux AMD64
+        uses: actions/upload-artifact@v4
+        with:
+          name: mcpscan-linux-amd64
+          path: mcpscan-linux-amd64
+
+      - name: Upload Linux ARM64
+        uses: actions/upload-artifact@v4
+        with:
+          name: mcpscan-linux-arm64
+          path: mcpscan-linux-arm64
+
+      - name: Upload macOS AMD64 (Intel)
+        uses: actions/upload-artifact@v4
+        with:
+          name: mcpscan-darwin-amd64
+          path: mcpscan-darwin-amd64
+
+      - name: Upload macOS ARM64 (Apple Silicon)
+        uses: actions/upload-artifact@v4
+        with:
+          name: mcpscan-darwin-arm64
+          path: mcpscan-darwin-arm64
