@@ -5,7 +5,7 @@
 **M**ine**c**raft server **p**ort **s**canner.
 
 <a href="https://github.com/tmquan2508/mcpscan/releases/latest">
-    <img alt="Latest Release" src="https://img.shields.io/github/v/release/BẠN/mcpscan?style=for-the-badge&logo=github">
+    <img alt="Latest Release" src="https://img.shields.io/github/v/release/tmquan2508/mcpscan?style=for-the-badge&logo=github">
 </a>
 
 <br/>
@@ -20,7 +20,7 @@
 
 The easiest way to use `mcpscan` is to download the latest pre-compiled binary for your operating system from the **[Releases Page](https://github.com/tmquan2508/mcpscan/releases/latest)**.
 
-1.  Go to the [Releases page](https://github.com/BẠN/mcpscan/releases/latest).
+1.  Go to the [Releases page](https://github.com/tmquan2508/mcpscan/releases/latest).
 2.  Find the asset that matches your OS and architecture (e.g., `mcpscan-windows-amd64.exe`).
 3.  Download the file, and you're ready to run it from your terminal.
 
