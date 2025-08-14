@@ -4,15 +4,14 @@
 
 **M**ine**c**raft server **p**ort **s**canner.
 
-<a href="https://github.com/tmquan2508/mcpscan/releases/latest">
-    <img alt="Latest Release" src="https://img.shields.io/github/v/release/tmquan2508/mcpscan?style=for-the-badge&logo=github">
-</a>
-
-<br/>
 <img alt="mcpscan icon" src="icon.png" height="200" width="200" style="border-radius: 50% 20% / 10% 40%;"/>
 <br/>
 
 *A fast, concurrent Minecraft server port scanner written in Go.*
+
+<a href="https://github.com/tmquan2508/mcpscan/releases/latest">
+    <img alt="Latest Release" src="https://img.shields.io/github/v/release/tmquan2508/mcpscan?style=for-the-badge&logo=github">
+</a>
 
 </div>
 
