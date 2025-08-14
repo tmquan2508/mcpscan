@@ -4,7 +4,7 @@
 
 **M**ine**c**raft server **p**ort **s**canner.
 
-<a href="https://github.com/BẠN/mcpscan/releases/latest">
+<a href="https://github.com/tmquan2508/mcpscan/releases/latest">
     <img alt="Latest Release" src="https://img.shields.io/github/v/release/BẠN/mcpscan?style=for-the-badge&logo=github">
 </a>
 
